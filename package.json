@@ -1,0 +1,12 @@
+{
+  "name": "robot-automatizacion",
+  "version": "1.0.0",
+  "description": "Plataforma de robots de automatizacion - Robot SUNAT (Punto 10) y futuros robots",
+  "main": "test.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "playwright": "^1.48.0"
+  }
+}
