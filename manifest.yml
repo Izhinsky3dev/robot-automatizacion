@@ -1,0 +1,12 @@
+applications:
+  - name: robot-sunat
+    memory: 1024M
+    disk_quota: 2048M
+    instances: 1
+    buildpacks:
+      - https://github.com/cloudfoundry/apt-buildpack
+      - nodejs_buildpack
+    command: node index.js
+    env:
+      NPM_CONFIG_PRODUCTION: false
+      PLAYWRIGHT_BROWSERS_PATH: "0"
